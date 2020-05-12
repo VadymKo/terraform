@@ -1,10 +1,10 @@
 output "aws_key_name" {
-  description = "Key pair NAME."
+  description = "The key pair NAME."
   value       = aws_key_pair.key_pair_with_key_name.*.key_name
 }
 
 output "aws_key_id" {
-  description = "Key pair ID."
+  description = "The key pair ID."
   value       = aws_key_pair.key_pair_with_key_name.*.id
 }
 
