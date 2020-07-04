@@ -3,6 +3,7 @@
 Terraform module which creates [Amazon EC2 key pairs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html) on AWS.
 
 ## Terraform Resources
+
 Resource Files |
 ------------ |
 [key-pair.tf](./key-pair.tf) |
